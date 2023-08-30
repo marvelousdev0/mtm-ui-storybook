@@ -1,0 +1,10 @@
+<svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="Group_835" data-name="Group 835" transform="translate(-581 1011) rotate(-90)">
+    <rect id="Rectangle_1115" data-name="Rectangle 1115" width="35" height="35" rx="17.5" transform="translate(976 581)" fill="#024f6e"/>
+    <g id="Group_824" data-name="Group 824" transform="translate(985.567 593.551)">
+      <g id="Sort_arrow" data-name="Sort arrow">
+        <path id="Path_489" data-name="Path 489" d="M580.19,269.938l7.748,9.525,7.747-9.525" transform="translate(-580.19 -269.938)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>
