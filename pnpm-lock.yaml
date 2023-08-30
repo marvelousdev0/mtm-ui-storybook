@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@ant-design/icons':
+    specifier: ^5.2.5
+    version: 5.2.5(react-dom@18.2.0)(react@18.2.0)
   antd:
     specifier: ^5.8.5
     version: 5.8.5(react-dom@18.2.0)(react@18.2.0)
@@ -40,6 +43,9 @@ devDependencies:
   '@storybook/addon-styling':
     specifier: ^1.3.7
     version: 1.3.7(@types/react-dom@18.2.7)(@types/react@18.2.21)(less@4.2.0)(postcss@8.4.29)(react-dom@18.2.0)(react@18.2.0)(webpack@5.88.2)
+  '@storybook/addons':
+    specifier: ^7.4.0
+    version: 7.4.0(react-dom@18.2.0)(react@18.2.0)
   '@storybook/blocks':
     specifier: ^7.4.0
     version: 7.4.0(@types/react-dom@18.2.7)(@types/react@18.2.21)(react-dom@18.2.0)(react@18.2.0)
@@ -3065,6 +3071,19 @@ packages:
     transitivePeerDependencies:
       - '@types/react'
       - '@types/react-dom'
+    dev: true
+
+  /@storybook/addons@7.4.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-obeYFtICbJRqE41t5Fk0wxCPp4BMKxPVyZ8GxNpKD0sRsZfD+/5k2oSwMzdl8pWkm43zzz0aqqhrP5UJzAi66Q==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@storybook/manager-api': 7.4.0(react-dom@18.2.0)(react@18.2.0)
+      '@storybook/preview-api': 7.4.0
+      '@storybook/types': 7.4.0
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
     dev: true
 
   /@storybook/api@7.4.0(react-dom@18.2.0)(react@18.2.0):

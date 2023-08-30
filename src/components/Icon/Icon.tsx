@@ -1,17 +1,18 @@
 import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 import clsx from "clsx";
+import { IconName } from "./types";
 
 interface UseDynamicSVGImportOptions {
   onCompleted?: (
-    name: string,
+    name: IconName,
     SvgIcon: React.FC<React.SVGProps<SVGSVGElement>> | undefined
   ) => void;
   onError?: (err: Error) => void;
 }
 
 function useDynamicSVGImport(
-  name: string,
+  name: IconName,
   options: UseDynamicSVGImportOptions = {}
 ) {
   const ImportedIconRef = useRef<React.FC<React.SVGProps<SVGSVGElement>>>();
@@ -41,7 +42,7 @@ function useDynamicSVGImport(
 }
 
 interface IconProps extends React.SVGProps<SVGSVGElement> {
-  name: string;
+  name: IconName;
   onCompleted?: UseDynamicSVGImportOptions["onCompleted"];
   onError?: any;
 }
@@ -78,7 +79,7 @@ const StyledIcon = styled(RenderIcon)`
 
 interface IconProps {
   /** icon's name */
-  name: string;
+  name: IconName;
   id?: string;
   /** the height of the icon in pixels eg:  height="10" */
   height?: string;
