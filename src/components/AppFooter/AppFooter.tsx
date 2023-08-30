@@ -21,7 +21,7 @@ export const AppFooter = () => {
         </AppFooterText>
         <AppFooterText>
           <AppFooterLink
-            href="https://www.mtm-inc.net/privacy-policy/"
+            href="https://www.mtm-inc.net/wp-content/uploads/2018/12/PrivacyPolicyJune2023.pdf"
             target="_blank"
             rel="noreferrer noopener"
           >
